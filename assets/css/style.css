@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-color: #BEC5AD;
+}
+
+
+.tecnology{
+    background-color: #29323b;
+    margin: 20px;
+}
+
+
+
+.icon_tecnology{
+    font-size: 150px;
+    padding: 20px;
+}
+
+.card{
+    background-color: #29323b;
+}
+
+.net{
+    background-color: #29323b;
+    margin: 20px;
+}
+
+.icon_net{
+    font-size: 30px;
+}
