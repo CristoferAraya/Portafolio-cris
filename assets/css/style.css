@@ -68,3 +68,13 @@ body{
     font-size: 30px;
     padding: 10px;
 }
+
+.net a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.net a:hover{
+    color: wheat;
+}
