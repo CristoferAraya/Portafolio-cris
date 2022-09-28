@@ -10,6 +10,10 @@ body{
     max-width: 800px;
 }
 
+.aboutme{
+    max-width: 1000px;
+}
+
 .boton{
     color:wheat;
     text-decoration: none;
