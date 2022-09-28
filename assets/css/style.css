@@ -6,10 +6,12 @@ body{
     background-color: #BEC5AD;
 }
 
+.info{
+    max-width: 800px;
+}
 
 .tecnology{
     background-color: #29323b;
-    margin: 20px;
 }
 
 .title_tecnology{
@@ -27,7 +29,6 @@ body{
 
 .net{
     background-color: #29323b;
-    margin: 20px;
     padding: 10px;
 }
 

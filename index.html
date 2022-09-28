@@ -48,51 +48,57 @@
     </header>
     <main>
         <div class="container-fluid">
-            <div class="pic row bg-dark  p-3 rounded-4 justify-content-center text-center m-3">
-                <div>
-                    <img class="img-fluid rounded-4" src="assets/imgs/foto.jpg" alt="foto rostro">
+            <div class="info row justify-content-center text-center m-3 mx-auto">
+                <div class="pic col-sm-10 col-md-5 bg-dark m-3  p-3 rounded-4 justify-content-center text-center">
+                    <div class="">
+                        <img class="img-fluid rounded-4" src="assets/imgs/foto.jpg" alt="foto rostro">
+                    </div>
+                </div>
+                <div id="info" class="col-sm-10 col-md-5 bg-dark m-3  p-3 rounded-4 text-light text-center justify-content-center">
+                    <div class="info_text">
+                        <h4>Informacion Personal</h4>
+                        <p>
+                        <ul>
+                            <li>Nombre: Juan Pablo Álvarez</li>
+                            <li>Rut: 18.540.740-3</li>
+                            <li>Telefono: +56979873936</li>
+                            <li>Instagram: Quezaendelgato</li>
+                        </ul>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div id="info" class="info row bg-dark m-3 p-3 rounded-4 text-light text-center">
-                <h4>Informacion Personal</h4>
-                <p>
-                <ul>
-                    <li>Nombre: Juan Pablo Álvarez</li>
-                    <li>Rut: 18.540.740-3</li>
-                    <li>Telefono: +56979873936</li>
-                    <li>Instagram: Quezaendelgato</li>
-                </ul>
-                </p>
-            </div>
-            <div id="aboutme" class="aboutme row bg-dark m-3 p-3 rounded-4 text-light text-center">
-                <h4>Sobre Mi</h4>
-                <p>
-                    Soy Juan Pablo Álvarez, un estudiante de Programación full Stack con conocimientos en HTML, CSS,
-                    JavaScript, MySQL y otras tecnologías a fines al rubro, además de tener experiencia en soporte
-                    técnico computacional en terreno, cableado de red y estudios en electrónica, listo para ayudar a
-                    potenciar todos tus proyectos con soluciones web teniendo en cuenta el diseño y la funcionalidad
-                    para dar la mejor experiencia a los usuarios de tu emprendimiento.
-                </p>
+            <div id="aboutme" class="aboutme row bg-dark m-3 p-3 rounded-4 text-light text-center justify-content-center">
+                <div class="aboutme_text col-sm-10">
+                    <h4>Sobre Mi</h4>
+                    <p>
+                        Soy Juan Pablo Álvarez, un estudiante de Programación full Stack con conocimientos en HTML, CSS,
+                        JavaScript, MySQL y otras tecnologías a fines al rubro, además de tener experiencia en soporte
+                        técnico computacional en terreno, cableado de red y estudios en electrónica, listo para ayudar a
+                        potenciar todos tus proyectos con soluciones web teniendo en cuenta el diseño y la funcionalidad
+                        para dar la mejor experiencia a los usuarios de tu emprendimiento.
+                    </p>
+                </div>
             </div>
             <div id="tecnologies" class="tecnologies row bg-dark m-3 p-3 rounded-4 text-light text-center justify-content-center">
                 <h4 class="pb-2">Tecnologias</h4>
-                <div class="tecnology">
+                <div class="tecnology col-sm-10 col-md-6 col-lg-4 col-xl-3">
                     <h4 class="title_tecnology">Html</h4>
                     <i class="icon_tecnology fa-brands fa-html5"></i>
                 </div>
-                <div class="tecnology">
+                <div class="tecnology col-sm-10 col-md-6 col-lg-4 col-xl-3">
                     <h4 class="title_tecnology">Css</h4>
                     <div class="icono">
                         <i class="icon_tecnology fa-brands fa-css3-alt"></i>
                     </div>
                 </div>
-                <div class="tecnology">
+                <div class="tecnology col-sm-10 col-md-6 col-lg-4 col-xl-3">
                     <h4 class="title_tecnology">Bootstrap</h4>
-                    <div class="icono">
+                    <div class="icono"> 
                         <i class="icon_tecnology fa-brands fa-bootstrap"></i>
                     </div>
                 </div>
-                <div class="tecnology">
+                <div class="tecnology col-sm-10 col-md-6 col-lg-4 col-xl-3">
                     <h4 class="title_tecnology">GitHub</h4>
                     <div class="icono">
                         <i class="icon_tecnology fa-brands fa-github"></i>
@@ -102,58 +108,70 @@
             <div id="jobs" class="jobs row  bg-dark m-3 p-3 rounded-4 text-light text-center">
                 <h4>Trabajos</h4>
                 <div class="container">
-                    <div class="card m-3">
-                        <img src="assets/imgs/GitPage/Curriculum.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Curriculum</h5>
-                            <div class="d-flex justify-content-evenly">
-                                <a href="#" class="btn btn-primary">Repositorio</a>
-                                <a href="#" class="btn btn-primary">Page</a>
+                    <div class="row cards text-center justify-content-evenly">
+                        <div class="card col-sm-10 col-md-5 col-xl-3 m-3">
+                            <img src="assets/imgs/GitPage/Curriculum.JPG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Curriculum</h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <a href="#" class="btn btn-primary">Repositorio</a>
+                                    <a href="#" class="btn btn-primary">Page</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card m-3">
-                        <img src="assets/imgs/GitPage/Landing.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Landing</h5>
-                            <div class="d-flex justify-content-evenly">
-                                <a href="#" class="btn btn-primary">Repositorio</a>
-                                <a href="#" class="btn btn-primary">Page</a>
+                        <div class="card col-sm-10 col-md-5 col-xl-3 m-3">
+                            <img src="assets/imgs/GitPage/Landing.JPG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Landing</h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <a href="#" class="btn btn-primary">Repositorio</a>
+                                    <a href="#" class="btn btn-primary">Page</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card m-3">
-                        <img src="assets/imgs/GitPage/Iguana.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">IguanaPage</h5>
-                            <div class="d-flex justify-content-evenly">
-                                <a href="#" class="btn btn-primary">Repositorio</a>
-                                <a href="#" class="btn btn-primary">Page</a>
+                        <div class="card col-sm-10 col-md-5 col-xl-3 m-3">
+                            <img src="assets/imgs/GitPage/Iguana.JPG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">IguanaPage</h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <a href="#" class="btn btn-primary">Repositorio</a>
+                                    <a href="#" class="btn btn-primary">Page</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card m-3">
-                        <img src="assets/imgs/GitPage/Kutral.JPG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Kutralche</h5>
-                            <div class="d-flex justify-content-evenly">
-                                <a href="#" class="btn btn-primary">Repositorio</a>
-                                <a href="#" class="btn btn-primary">Page</a>
+                        <div class="card col-sm-10 col-md-5 col-xl-3 m-3">
+                            <img src="assets/imgs/GitPage/Kutral.JPG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kutralche</h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <a href="#" class="btn btn-primary">Repositorio</a>
+                                    <a href="#" class="btn btn-primary">Page</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-sm-10 col-md-5 col-xl-3 m-3">
+                            <img src="assets/imgs/GitPage/Cuppon.JPG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cuppon</h5>
+                                <div class="d-flex justify-content-evenly">
+                                    <a href="#" class="btn btn-primary">Repositorio</a>
+                                    <a href="#" class="btn btn-primary">Page</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="networks" class="networks row bg-dark m-3 p-3 rounded-4 text-light text-center justify-content-center">
-                <div class="net">
+                <div class="net col-sm-6 col-md-4">
                     <h4>Instagram</h4>
                     <i class="icon_net fa-brands fa-instagram"></i>
                 </div>
-                <div class="net">
+                <div class="net col-sm-6 col-md-4">
                     <h4>Facebook</h4>
                     <i class="icon_net fa-brands fa-facebook"></i>
                 </div>
-                <div class="net">
+                <div class="net col-sm-6 col-md-4">
                     <h4>Git</h4>
                     <i class="icon_net fa-brands fa-square-github"></i>
                 </div>
