@@ -10,8 +10,23 @@ body{
     max-width: 800px;
 }
 
-.tecnology{
-    background-color: #29323b;
+
+.html_icon{
+    color: #DD4B25;
+}
+
+.css_icon{
+    color: #254BDD;
+
+}
+
+.bootstrap_icon{
+    color: #69419A;
+}
+
+.git_icon{
+    color: black;
+
 }
 
 .title_tecnology{
@@ -27,8 +42,11 @@ body{
     background-color: #29323b;
 }
 
+.card-title{
+    padding-bottom: 10px;
+}
+
 .net{
-    background-color: #29323b;
     padding: 10px;
 }
 
