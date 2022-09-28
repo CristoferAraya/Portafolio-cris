@@ -12,11 +12,13 @@ body{
     margin: 20px;
 }
 
-
+.title_tecnology{
+    padding-top:20px;
+}
 
 .icon_tecnology{
     font-size: 150px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .card{
@@ -26,8 +28,10 @@ body{
 .net{
     background-color: #29323b;
     margin: 20px;
+    padding: 10px;
 }
 
 .icon_net{
     font-size: 30px;
+    padding: 10px;
 }
