@@ -10,6 +10,16 @@ body{
     max-width: 800px;
 }
 
+.boton{
+    color:wheat;
+    text-decoration: none;
+}
+
+.boton:hover {
+    color:rgb(198, 141, 36);
+}
+
+
 
 .html_icon{
     color: #DD4B25;
